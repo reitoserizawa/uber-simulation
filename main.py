@@ -6,13 +6,15 @@ ACTIVE_DRIVER_COUNT = 10
 
 # time - counting 1 as 1 sec
 TOTAL_DURATION = 3600
-INTERVAL = 600
 WINDOW_START_TIME = 0
 WINDOW_END_TIME = 1800
+INTERVAL = 600
+
+
 # picking random time duration between 100 and 600 seconds for events
 RANDOM_TIME_DURATION = (100, 600)
 
-# driver actions
+# do not edit - driver actions
 ACTIONS = ["ride", "offline"]
 
 
